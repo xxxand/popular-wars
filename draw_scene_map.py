@@ -5,7 +5,8 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-from matplotlib.patches import Circle, Rectangle
+from matplotlib.patches import Circle, PathPatch, Rectangle
+from matplotlib.path import Path
 from scipy import ndimage
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -28,10 +29,46 @@ blocked = grid == -1
 lab, _ = ndimage.label(blocked)
 border = set(np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))) - {0}
 outside = np.isin(lab, list(border))
-img = np.zeros(grid.shape + (3,))
-img[grid == 0] = (0.93, 0.95, 0.97)
-img[blocked & ~outside] = (0.55, 0.60, 0.68)
-img[outside] = (0.20, 0.23, 0.29)
+GROUND_C = "#edf2f7"
+BLOCK_C = "#8c99ad"
+OUTSIDE_C = "#333b4a"
+
+
+def rect_path(mask):
+    """把栅格掩码合并成矩形，输出单个 Path（避免 SVG 内嵌位图，GitHub 的 CSP 会拦截 data: 图片）"""
+    rects = []
+    active = {}
+    rows, cols = mask.shape
+    for r in range(rows):
+        row = mask[r]
+        runs = []
+        c = 0
+        while c < cols:
+            if row[c]:
+                c0 = c
+                while c < cols and row[c]:
+                    c += 1
+                runs.append((c0, c))
+            else:
+                c += 1
+        now = {}
+        for c0, c1 in runs:
+            if (c0, c1) in active:
+                k = active[(c0, c1)]
+                rects[k][2] += 1
+            else:
+                rects.append([c0, r, 1, c1 - c0])
+                k = len(rects) - 1
+            now[(c0, c1)] = k
+        active = now
+
+    verts, codes = [], []
+    for c0, r0, h, w in rects:
+        x0, x1 = c0 / 2 - HW, (c0 + w) / 2 - HW
+        y0, y1 = r0 / 2 - HH, (r0 + h) / 2 - HH
+        verts += [(x0, y0), (x1, y0), (x1, y1), (x0, y1), (x0, y0)]
+        codes += [Path.MOVETO, Path.LINETO, Path.LINETO, Path.LINETO, Path.CLOSEPOLY]
+    return Path(verts, codes)
 
 spawns = [(p["x"], p["z"]) for p in d["spawns"]]
 points = [(p["x"], p["z"]) for p in d["points"]]
@@ -63,7 +100,9 @@ for w in wilds:
 
 fig = plt.figure(figsize=(18, 13.2), dpi=110, facecolor="#f8f9fa")
 ax = fig.add_axes([0.04, 0.05, 0.60, 0.86])
-ax.imshow(img, extent=[-HW, HW, HH, -HH], interpolation="nearest", zorder=0)
+ax.add_patch(Rectangle((-HW, -HH), W, H, fc=GROUND_C, ec="none", zorder=0))
+ax.add_patch(PathPatch(rect_path(outside), fc=OUTSIDE_C, ec="none", antialiased=False, zorder=0.5))
+ax.add_patch(PathPatch(rect_path(blocked & ~outside), fc=BLOCK_C, ec="none", antialiased=False, zorder=0.5))
 ax.set_xlim(-HW - 2, HW + 2)
 ax.set_ylim(HH + 2, -HH - 2)
 ax.set_aspect("equal")
