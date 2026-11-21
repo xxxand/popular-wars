@@ -1,0 +1,95 @@
+{
+  "frames": {
+    "wing_0_0.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 170,
+        "h": 106
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 170,
+        "h": 106
+      },
+      "sourceSize": {
+        "w": 170,
+        "h": 106
+      }
+    },
+    "wing_0_1.png": {
+      "frame": {
+        "x": 1,
+        "y": 108,
+        "w": 170,
+        "h": 106
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 170,
+        "h": 106
+      },
+      "sourceSize": {
+        "w": 170,
+        "h": 106
+      }
+    },
+    "wing_0_2.png": {
+      "frame": {
+        "x": 1,
+        "y": 215,
+        "w": 170,
+        "h": 106
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 170,
+        "h": 106
+      },
+      "sourceSize": {
+        "w": 170,
+        "h": 106
+      }
+    },
+    "wing_0_3.png": {
+      "frame": {
+        "x": 1,
+        "y": 108,
+        "w": 170,
+        "h": 106
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 170,
+        "h": 106
+      },
+      "sourceSize": {
+        "w": 170,
+        "h": 106
+      }
+    }
+  },
+  "meta": {
+    "app": "Adobe Animate",
+    "version": "16.1.0.86",
+    "image": "wing.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 256,
+      "h": 512
+    },
+    "scale": "1"
+  }
+}

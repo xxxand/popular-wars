@@ -1,0 +1,75 @@
+{
+  "frames": {
+    "score10_0_0.png": {
+      "frame": {
+        "x": 1,
+        "y": 103,
+        "w": 80,
+        "h": 50
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 50
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 50
+      }
+    },
+    "score1_0_0.png": {
+      "frame": {
+        "x": 1,
+        "y": 52,
+        "w": 80,
+        "h": 50
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 50
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 50
+      }
+    },
+    "score5_0_0.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 80,
+        "h": 50
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 50
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 50
+      }
+    }
+  },
+  "meta": {
+    "app": "Adobe Animate",
+    "version": "16.1.0.86",
+    "image": "score.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 128,
+      "h": 256
+    },
+    "scale": "1"
+  }
+}

@@ -1,0 +1,3474 @@
+{
+  "ai": [
+    {
+      "id": "1",
+      "name": "新手1",
+      "escapeRadius": "5",
+      "catchRadius": "5",
+      "checkInterval": "20000-50000",
+      "itemProb": "0.1",
+      "escapeRate": "0.2",
+      "reviveProb": "0",
+      "keepGroupProb": "0",
+      "catchRate": "0"
+    },
+    {
+      "id": "2",
+      "name": "新手2",
+      "escapeRadius": "5",
+      "catchRadius": "5",
+      "checkInterval": "12000-14000",
+      "itemProb": "0.1",
+      "escapeRate": "0.2",
+      "reviveProb": "0",
+      "keepGroupProb": "0",
+      "catchRate": "0"
+    },
+    {
+      "id": "3",
+      "name": "新手3",
+      "escapeRadius": "5",
+      "catchRadius": "5",
+      "checkInterval": "10000-12000",
+      "itemProb": "0.1",
+      "escapeRate": "0.2",
+      "reviveProb": "0",
+      "keepGroupProb": "0",
+      "catchRate": "0"
+    },
+    {
+      "id": "4",
+      "name": "简单1",
+      "escapeRadius": "6",
+      "catchRadius": "6",
+      "checkInterval": "8000-10000",
+      "itemProb": "0.15",
+      "escapeRate": "0.25",
+      "reviveProb": "0",
+      "keepGroupProb": "0",
+      "catchRate": "0"
+    },
+    {
+      "id": "5",
+      "name": "简单2",
+      "escapeRadius": "6",
+      "catchRadius": "6",
+      "checkInterval": "6000-8000",
+      "itemProb": "0.15",
+      "escapeRate": "0.25",
+      "reviveProb": "0.1",
+      "keepGroupProb": "0.18",
+      "catchRate": "0"
+    },
+    {
+      "id": "6",
+      "name": "简单3",
+      "escapeRadius": "6",
+      "catchRadius": "6",
+      "checkInterval": "6000-8000",
+      "itemProb": "0.15",
+      "escapeRate": "0.25",
+      "reviveProb": "0.12",
+      "keepGroupProb": "0.2",
+      "catchRate": "0.1"
+    },
+    {
+      "id": "7",
+      "name": "中等1",
+      "escapeRadius": "7",
+      "catchRadius": "7",
+      "checkInterval": "6000-8000",
+      "itemProb": "0.2",
+      "escapeRate": "0.3",
+      "reviveProb": "0.14",
+      "keepGroupProb": "0.25",
+      "catchRate": "0.1"
+    },
+    {
+      "id": "8",
+      "name": "中等2",
+      "escapeRadius": "7",
+      "catchRadius": "7",
+      "checkInterval": "6000-8000",
+      "itemProb": "0.25",
+      "escapeRate": "0.3",
+      "reviveProb": "0.16",
+      "keepGroupProb": "0.3",
+      "catchRate": "0.1"
+    },
+    {
+      "id": "9",
+      "name": "中等3",
+      "escapeRadius": "8",
+      "catchRadius": "8",
+      "checkInterval": "4000-6000",
+      "itemProb": "0.3",
+      "escapeRate": "0.3",
+      "reviveProb": "0.18",
+      "keepGroupProb": "0.4",
+      "catchRate": "0.2"
+    },
+    {
+      "id": "10",
+      "name": "困难1",
+      "escapeRadius": "8",
+      "catchRadius": "10",
+      "checkInterval": "4000-6000",
+      "itemProb": "0.35",
+      "escapeRate": "0.4",
+      "reviveProb": "0.2",
+      "keepGroupProb": "0.5",
+      "catchRate": "0.3"
+    },
+    {
+      "id": "11",
+      "name": "困难2",
+      "escapeRadius": "9",
+      "catchRadius": "15",
+      "checkInterval": "4000-6000",
+      "itemProb": "0.4",
+      "escapeRate": "0.5",
+      "reviveProb": "0.25",
+      "keepGroupProb": "0.6",
+      "catchRate": "0.4"
+    },
+    {
+      "id": "12",
+      "name": "困难3",
+      "escapeRadius": "9",
+      "catchRadius": "20",
+      "checkInterval": "3000-5000",
+      "itemProb": "0.45",
+      "escapeRate": "0.6",
+      "reviveProb": "0.3",
+      "keepGroupProb": "0.7",
+      "catchRate": "0.5"
+    },
+    {
+      "id": "13",
+      "name": "变态1",
+      "escapeRadius": "10",
+      "catchRadius": "25",
+      "checkInterval": "3000-5000",
+      "itemProb": "0.5",
+      "escapeRate": "0.7",
+      "reviveProb": "0.35",
+      "keepGroupProb": "0.8",
+      "catchRate": "0.6"
+    },
+    {
+      "id": "14",
+      "name": "变态2",
+      "escapeRadius": "11",
+      "catchRadius": "25",
+      "checkInterval": "3000-5000",
+      "itemProb": "0.55",
+      "escapeRate": "0.8",
+      "reviveProb": "0.4",
+      "keepGroupProb": "0.85",
+      "catchRate": "0.7"
+    },
+    {
+      "id": "15",
+      "name": "变态3",
+      "escapeRadius": "12",
+      "catchRadius": "25",
+      "checkInterval": "3000-5000",
+      "itemProb": "0.6",
+      "escapeRate": "0.8",
+      "reviveProb": "0.5",
+      "keepGroupProb": "0.9",
+      "catchRate": "0.8"
+    },
+    {
+      "id": "101",
+      "name": "新手专用",
+      "type": "fixed"
+    }
+  ],
+  "aiInfor": [
+    {
+      "id": "1",
+      "name": "打我的是猪",
+      "ownSkin": "1",
+      "cupNum": "15"
+    },
+    {
+      "id": "2",
+      "name": "残风",
+      "ownSkin": "1",
+      "cupNum": "19"
+    },
+    {
+      "id": "3",
+      "name": "各自生欢",
+      "ownSkin": "1",
+      "cupNum": "23"
+    },
+    {
+      "id": "4",
+      "name": "尘缘若梦",
+      "ownSkin": "1",
+      "cupNum": "27"
+    },
+    {
+      "id": "5",
+      "name": "少年不再年少",
+      "ownSkin": "1",
+      "cupNum": "31"
+    },
+    {
+      "id": "6",
+      "name": "有腹肌的仙女",
+      "ownSkin": "1",
+      "cupNum": "35"
+    },
+    {
+      "id": "7",
+      "name": "国产小祖宗",
+      "ownSkin": "1",
+      "cupNum": "39"
+    },
+    {
+      "id": "8",
+      "name": "墨雨浅殇、",
+      "ownSkin": "1",
+      "cupNum": "43"
+    },
+    {
+      "id": "9",
+      "name": "南柯梦",
+      "ownSkin": "1",
+      "cupNum": "47"
+    },
+    {
+      "id": "10",
+      "name": "出租半张床",
+      "ownSkin": "1",
+      "cupNum": "51"
+    },
+    {
+      "id": "11",
+      "name": "苏瑾年",
+      "ownSkin": "1",
+      "cupNum": "55"
+    },
+    {
+      "id": "12",
+      "name": "安生",
+      "ownSkin": "1",
+      "cupNum": "59"
+    },
+    {
+      "id": "13",
+      "name": "此号作废",
+      "ownSkin": "1",
+      "cupNum": "63"
+    },
+    {
+      "id": "14",
+      "name": "盖世小馒头",
+      "ownSkin": "1",
+      "cupNum": "67"
+    },
+    {
+      "id": "15",
+      "name": "得而不惜.",
+      "ownSkin": "1",
+      "cupNum": "71"
+    },
+    {
+      "id": "16",
+      "name": "旖旎",
+      "ownSkin": "1",
+      "cupNum": "75"
+    },
+    {
+      "id": "17",
+      "name": "搁笔",
+      "ownSkin": "1",
+      "cupNum": "79"
+    },
+    {
+      "id": "18",
+      "name": "小脑袋要爆炸了",
+      "ownSkin": "1",
+      "cupNum": "83"
+    },
+    {
+      "id": "19",
+      "name": "早春的树",
+      "ownSkin": "1",
+      "cupNum": "87"
+    },
+    {
+      "id": "20",
+      "name": "不要对我好",
+      "ownSkin": "1",
+      "cupNum": "91"
+    },
+    {
+      "id": "21",
+      "name": "其实吧我一点也不可爱",
+      "ownSkin": "1",
+      "cupNum": "95"
+    },
+    {
+      "id": "22",
+      "name": "迟暮",
+      "ownSkin": "1",
+      "cupNum": "99"
+    },
+    {
+      "id": "23",
+      "name": "栖川",
+      "ownSkin": "1",
+      "cupNum": "103"
+    },
+    {
+      "id": "24",
+      "name": "如初",
+      "ownSkin": "1",
+      "cupNum": "107"
+    },
+    {
+      "id": "25",
+      "name": "一万吨的少女心",
+      "ownSkin": "1",
+      "cupNum": "111"
+    },
+    {
+      "id": "26",
+      "name": "混沌的小肉团",
+      "ownSkin": "1",
+      "cupNum": "115"
+    },
+    {
+      "id": "27",
+      "name": "少女大佬",
+      "ownSkin": "1",
+      "cupNum": "119"
+    },
+    {
+      "id": "28",
+      "name": "不仙",
+      "ownSkin": "1",
+      "cupNum": "123"
+    },
+    {
+      "id": "29",
+      "name": "撒娇惯犯",
+      "ownSkin": "1",
+      "cupNum": "127"
+    },
+    {
+      "id": "30",
+      "name": "♀橘子味的猫",
+      "ownSkin": "1",
+      "cupNum": "131"
+    },
+    {
+      "id": "31",
+      "name": "迷妹超冷",
+      "ownSkin": "1",
+      "cupNum": "135"
+    },
+    {
+      "id": "32",
+      "name": "三三得九",
+      "ownSkin": "1",
+      "cupNum": "139"
+    },
+    {
+      "id": "33",
+      "name": "初见ら",
+      "ownSkin": "1",
+      "cupNum": "143"
+    },
+    {
+      "id": "34",
+      "name": "啾一口甜",
+      "ownSkin": "1",
+      "cupNum": "147"
+    },
+    {
+      "id": "35",
+      "name": "恰逢花开",
+      "ownSkin": "1",
+      "cupNum": "151"
+    },
+    {
+      "id": "36",
+      "name": "暧心少年づ",
+      "ownSkin": "1",
+      "cupNum": "155"
+    },
+    {
+      "id": "37",
+      "name": "你是我每天的梦",
+      "ownSkin": "1",
+      "cupNum": "159"
+    },
+    {
+      "id": "38",
+      "name": "一万里的晴空",
+      "ownSkin": "1",
+      "cupNum": "163"
+    },
+    {
+      "id": "39",
+      "name": "Messiah丶Adam",
+      "ownSkin": "1",
+      "cupNum": "167"
+    },
+    {
+      "id": "40",
+      "name": "じ foreverべ love",
+      "ownSkin": "1",
+      "cupNum": "171"
+    },
+    {
+      "id": "41",
+      "name": "ζั͡ޓއއއAmbition™",
+      "ownSkin": "1",
+      "cupNum": "175"
+    },
+    {
+      "id": "42",
+      "name": "べ Bred Anderson や",
+      "ownSkin": "1",
+      "cupNum": "179"
+    },
+    {
+      "id": "43",
+      "name": "ヾsummertrain べ",
+      "ownSkin": "1",
+      "cupNum": "183"
+    },
+    {
+      "id": "44",
+      "name": "Authority丶Power",
+      "ownSkin": "1",
+      "cupNum": "187"
+    },
+    {
+      "id": "45",
+      "name": "Daniella彡搁浅",
+      "ownSkin": "1",
+      "cupNum": "191"
+    },
+    {
+      "id": "46",
+      "name": "丶Mr丨内涵",
+      "ownSkin": "1",
+      "cupNum": "195"
+    },
+    {
+      "id": "47",
+      "name": "Memory半夏",
+      "ownSkin": "1",
+      "cupNum": "199"
+    },
+    {
+      "id": "48",
+      "name": "Cantr丶暮光",
+      "ownSkin": "1",
+      "cupNum": "203"
+    },
+    {
+      "id": "49",
+      "name": "233333",
+      "ownSkin": "1",
+      "cupNum": "207"
+    },
+    {
+      "id": "50",
+      "name": "Bitter",
+      "ownSkin": "1",
+      "cupNum": "211"
+    },
+    {
+      "id": "51",
+      "name": "白雨矮碧荷",
+      "ownSkin": "1",
+      "cupNum": "215"
+    },
+    {
+      "id": "52",
+      "name": "森芋暖暖",
+      "ownSkin": "1",
+      "cupNum": "219"
+    },
+    {
+      "id": "53",
+      "name": "薄荷绿°",
+      "ownSkin": "1",
+      "cupNum": "223"
+    },
+    {
+      "id": "54",
+      "name": "っ 澡澡猫",
+      "ownSkin": "1",
+      "cupNum": "227"
+    },
+    {
+      "id": "55",
+      "name": "残冬醉离殇",
+      "ownSkin": "1",
+      "cupNum": "231"
+    },
+    {
+      "id": "56",
+      "name": "水晶～沬兮",
+      "ownSkin": "1",
+      "cupNum": "235"
+    },
+    {
+      "id": "57",
+      "name": "夏の樱",
+      "ownSkin": "1",
+      "cupNum": "239"
+    },
+    {
+      "id": "58",
+      "name": "似花般绚烂╮",
+      "ownSkin": "1",
+      "cupNum": "243"
+    },
+    {
+      "id": "59",
+      "name": "时光它老了i",
+      "ownSkin": "1",
+      "cupNum": "247"
+    },
+    {
+      "id": "60",
+      "name": "温唇°sunshine",
+      "ownSkin": "1",
+      "cupNum": "251"
+    },
+    {
+      "id": "61",
+      "name": "Emotion",
+      "ownSkin": "1",
+      "cupNum": "255"
+    },
+    {
+      "id": "62",
+      "name": "-2yscw",
+      "ownSkin": "1",
+      "cupNum": "259"
+    },
+    {
+      "id": "63",
+      "name": "Paranoid",
+      "ownSkin": "1",
+      "cupNum": "263"
+    },
+    {
+      "id": "64",
+      "name": "Eason Chan 浮夸.",
+      "ownSkin": "1",
+      "cupNum": "267"
+    },
+    {
+      "id": "65",
+      "name": "Temptat10n゜夜",
+      "ownSkin": "1",
+      "cupNum": "271"
+    },
+    {
+      "id": "66",
+      "name": "-若凌° Provence -",
+      "ownSkin": "1",
+      "cupNum": "275"
+    },
+    {
+      "id": "67",
+      "name": "半颗心Brokens",
+      "ownSkin": "1",
+      "cupNum": "279"
+    },
+    {
+      "id": "68",
+      "name": "Summerrain つ",
+      "ownSkin": "1",
+      "cupNum": "283"
+    },
+    {
+      "id": "69",
+      "name": "Coquettish ヘ",
+      "ownSkin": "1",
+      "cupNum": "287"
+    },
+    {
+      "id": "70",
+      "name": "しJohnnie",
+      "ownSkin": "1",
+      "cupNum": "291"
+    },
+    {
+      "id": "71",
+      "name": "℡晴天",
+      "ownSkin": "1",
+      "cupNum": "295"
+    },
+    {
+      "id": "72",
+      "name": "White",
+      "ownSkin": "1",
+      "cupNum": "299"
+    },
+    {
+      "id": "73",
+      "name": "城堡下的诡洞",
+      "ownSkin": "1",
+      "cupNum": "303"
+    },
+    {
+      "id": "74",
+      "name": "一颗独苗苗",
+      "ownSkin": "1",
+      "cupNum": "307"
+    },
+    {
+      "id": "75",
+      "name": "最后的最后",
+      "ownSkin": "1",
+      "cupNum": "311"
+    },
+    {
+      "id": "76",
+      "name": "人狗殊途",
+      "ownSkin": "1",
+      "cupNum": "315"
+    },
+    {
+      "id": "77",
+      "name": "黑暗里的影子",
+      "ownSkin": "1",
+      "cupNum": "319"
+    },
+    {
+      "id": "78",
+      "name": "黑色幽默",
+      "ownSkin": "1",
+      "cupNum": "323"
+    },
+    {
+      "id": "79",
+      "name": "我服许仙敢日蛇",
+      "ownSkin": "1",
+      "cupNum": "327"
+    },
+    {
+      "id": "80",
+      "name": "Aomr",
+      "ownSkin": "1",
+      "cupNum": "331"
+    },
+    {
+      "id": "81",
+      "name": "瑾年Invader",
+      "ownSkin": "1",
+      "cupNum": "335"
+    },
+    {
+      "id": "82",
+      "name": "obert丶",
+      "ownSkin": "1",
+      "cupNum": "339"
+    },
+    {
+      "id": "83",
+      "name": "末凉残念浮生若梦",
+      "ownSkin": "1",
+      "cupNum": "343"
+    },
+    {
+      "id": "84",
+      "name": "陌角停落丶",
+      "ownSkin": "1",
+      "cupNum": "347"
+    },
+    {
+      "id": "85",
+      "name": "学校收了我们那么多钱",
+      "ownSkin": "1",
+      "cupNum": "351"
+    },
+    {
+      "id": "86",
+      "name": "我表里人渣",
+      "ownSkin": "1",
+      "cupNum": "355"
+    },
+    {
+      "id": "87",
+      "name": "歆雨倾尘",
+      "ownSkin": "1|15",
+      "cupNum": "359"
+    },
+    {
+      "id": "88",
+      "name": "恭候春夏的轮替",
+      "ownSkin": "1",
+      "cupNum": "363"
+    },
+    {
+      "id": "89",
+      "name": "何方妖孽",
+      "ownSkin": "1",
+      "cupNum": "367"
+    },
+    {
+      "id": "90",
+      "name": "肚脐眼的怒气",
+      "ownSkin": "1",
+      "cupNum": "371"
+    },
+    {
+      "id": "91",
+      "name": "德邦总管",
+      "ownSkin": "1",
+      "cupNum": "375"
+    },
+    {
+      "id": "92",
+      "name": "国际女流氓",
+      "ownSkin": "1",
+      "cupNum": "379"
+    },
+    {
+      "id": "93",
+      "name": "单身求解放",
+      "ownSkin": "1",
+      "cupNum": "383"
+    },
+    {
+      "id": "94",
+      "name": "喔喔奶糖",
+      "ownSkin": "1|16",
+      "cupNum": "387"
+    },
+    {
+      "id": "95",
+      "name": "duang够了没",
+      "ownSkin": "1|11",
+      "cupNum": "391"
+    },
+    {
+      "id": "96",
+      "name": "红星闪闪小屁孩",
+      "ownSkin": "1",
+      "cupNum": "395"
+    },
+    {
+      "id": "97",
+      "name": "灬灬流氓兔丶",
+      "ownSkin": "1",
+      "cupNum": "399"
+    },
+    {
+      "id": "98",
+      "name": "你若安好我若安生",
+      "ownSkin": "1",
+      "cupNum": "403"
+    },
+    {
+      "id": "99",
+      "name": "坐在坟前调戏鬼i",
+      "ownSkin": "1",
+      "cupNum": "407"
+    },
+    {
+      "id": "100",
+      "name": "诗酒趁年华",
+      "ownSkin": "1",
+      "cupNum": "411"
+    },
+    {
+      "id": "101",
+      "name": "司令",
+      "ownSkin": "1",
+      "cupNum": "415"
+    },
+    {
+      "id": "102",
+      "name": "笑忘书",
+      "ownSkin": "1",
+      "cupNum": "419"
+    },
+    {
+      "id": "103",
+      "name": "抽风丶",
+      "ownSkin": "1",
+      "cupNum": "423"
+    },
+    {
+      "id": "104",
+      "name": "呆呆呆呆呆",
+      "ownSkin": "1",
+      "cupNum": "427"
+    },
+    {
+      "id": "105",
+      "name": "初秋繁花入夢",
+      "ownSkin": "1",
+      "cupNum": "431"
+    },
+    {
+      "id": "106",
+      "name": "无事莫登旧人梦",
+      "ownSkin": "1",
+      "cupNum": "435"
+    },
+    {
+      "id": "107",
+      "name": "玲珑看月",
+      "ownSkin": "1",
+      "cupNum": "439"
+    },
+    {
+      "id": "108",
+      "name": "浮華一世钟成空丶",
+      "ownSkin": "1",
+      "cupNum": "443"
+    },
+    {
+      "id": "109",
+      "name": "天棠的蒂愈",
+      "ownSkin": "1",
+      "cupNum": "447"
+    },
+    {
+      "id": "110",
+      "name": "独为伊人醉红尘",
+      "ownSkin": "1",
+      "cupNum": "451"
+    },
+    {
+      "id": "111",
+      "name": "沫去丶",
+      "ownSkin": "1",
+      "cupNum": "455"
+    },
+    {
+      "id": "112",
+      "name": "人不范二枉少年丶",
+      "ownSkin": "1",
+      "cupNum": "459"
+    },
+    {
+      "id": "113",
+      "name": "思念是无法穿越的距离",
+      "ownSkin": "1",
+      "cupNum": "463"
+    },
+    {
+      "id": "114",
+      "name": "赏你奔雷掌i",
+      "ownSkin": "1",
+      "cupNum": "467"
+    },
+    {
+      "id": "115",
+      "name": "偏执的温柔",
+      "ownSkin": "1",
+      "cupNum": "471"
+    },
+    {
+      "id": "116",
+      "name": "微笑の瞳孔、",
+      "ownSkin": "1|16",
+      "cupNum": "475"
+    },
+    {
+      "id": "117",
+      "name": "爱兰玫莎",
+      "ownSkin": "1",
+      "cupNum": "479"
+    },
+    {
+      "id": "118",
+      "name": "琉璃梦境",
+      "ownSkin": "1",
+      "cupNum": "483"
+    },
+    {
+      "id": "119",
+      "name": "蓝月蝶梦",
+      "ownSkin": "1",
+      "cupNum": "487"
+    },
+    {
+      "id": "120",
+      "name": "hhhhhh",
+      "ownSkin": "1",
+      "cupNum": "491"
+    },
+    {
+      "id": "121",
+      "name": "风继续吹",
+      "ownSkin": "1",
+      "cupNum": "495"
+    },
+    {
+      "id": "122",
+      "name": "凡人多烦事",
+      "ownSkin": "1",
+      "cupNum": "499"
+    },
+    {
+      "id": "123",
+      "name": "痴心错付",
+      "ownSkin": "1",
+      "cupNum": "503"
+    },
+    {
+      "id": "124",
+      "name": "累世情深",
+      "ownSkin": "1",
+      "cupNum": "507"
+    },
+    {
+      "id": "125",
+      "name": "ζ凉风习卷人心",
+      "ownSkin": "1",
+      "cupNum": "511"
+    },
+    {
+      "id": "126",
+      "name": "丝丝记忆﹏",
+      "ownSkin": "1",
+      "cupNum": "515"
+    },
+    {
+      "id": "127",
+      "name": "独孤求败◇",
+      "ownSkin": "1",
+      "cupNum": "519"
+    },
+    {
+      "id": "128",
+      "name": "久念你i",
+      "ownSkin": "1",
+      "cupNum": "523"
+    },
+    {
+      "id": "129",
+      "name": "默数然后向你告白",
+      "ownSkin": "1",
+      "cupNum": "527"
+    },
+    {
+      "id": "130",
+      "name": "爱过那张脸",
+      "ownSkin": "1",
+      "cupNum": "531"
+    },
+    {
+      "id": "131",
+      "name": "灬格子的夏天丨",
+      "ownSkin": "1",
+      "cupNum": "535"
+    },
+    {
+      "id": "132",
+      "name": "还行还行",
+      "ownSkin": "1",
+      "cupNum": "539"
+    },
+    {
+      "id": "133",
+      "name": "越迷人的越邪恶",
+      "ownSkin": "1",
+      "cupNum": "543"
+    },
+    {
+      "id": "134",
+      "name": "抱着西瓜吃夏天",
+      "ownSkin": "1",
+      "cupNum": "547"
+    },
+    {
+      "id": "135",
+      "name": "像雾像雨又像风",
+      "ownSkin": "1",
+      "cupNum": "551"
+    },
+    {
+      "id": "136",
+      "name": "醒着做梦",
+      "ownSkin": "1",
+      "cupNum": "555"
+    },
+    {
+      "id": "137",
+      "name": "酒醉三分醒",
+      "ownSkin": "1",
+      "cupNum": "559"
+    },
+    {
+      "id": "138",
+      "name": "路一直都在",
+      "ownSkin": "1",
+      "cupNum": "563"
+    },
+    {
+      "id": "139",
+      "name": "时光不染,回忆不淡",
+      "ownSkin": "1",
+      "cupNum": "567"
+    },
+    {
+      "id": "140",
+      "name": "坐在坟前调戏鬼i",
+      "ownSkin": "1",
+      "cupNum": "571"
+    },
+    {
+      "id": "141",
+      "name": "香蕉你个麻辣",
+      "ownSkin": "1",
+      "cupNum": "575"
+    },
+    {
+      "id": "142",
+      "name": "暧昧让人变得贪心",
+      "ownSkin": "1",
+      "cupNum": "579"
+    },
+    {
+      "id": "143",
+      "name": "出席你的未来",
+      "ownSkin": "1",
+      "cupNum": "583"
+    },
+    {
+      "id": "144",
+      "name": "冲散了心丶",
+      "ownSkin": "1",
+      "cupNum": "587"
+    },
+    {
+      "id": "145",
+      "name": "怀念的钟表。",
+      "ownSkin": "1",
+      "cupNum": "591"
+    },
+    {
+      "id": "146",
+      "name": "害羞的斑马",
+      "ownSkin": "1",
+      "cupNum": "595"
+    },
+    {
+      "id": "147",
+      "name": "都市王子゛",
+      "ownSkin": "1",
+      "cupNum": "599"
+    },
+    {
+      "id": "148",
+      "name": "男生没有大姨父",
+      "ownSkin": "1",
+      "cupNum": "603"
+    },
+    {
+      "id": "149",
+      "name": "我会一直等你",
+      "ownSkin": "1",
+      "cupNum": "607"
+    },
+    {
+      "id": "150",
+      "name": "疯子摆摊卖回忆",
+      "ownSkin": "1",
+      "cupNum": "611"
+    },
+    {
+      "id": "151",
+      "name": "爱的够不够",
+      "ownSkin": "1|30",
+      "cupNum": "615"
+    },
+    {
+      "id": "152",
+      "name": "追忆流年似水",
+      "ownSkin": "1",
+      "cupNum": "619"
+    },
+    {
+      "id": "153",
+      "name": "十年烂人",
+      "ownSkin": "1",
+      "cupNum": "623"
+    },
+    {
+      "id": "154",
+      "name": "心清如水°",
+      "ownSkin": "1",
+      "cupNum": "627"
+    },
+    {
+      "id": "155",
+      "name": "人心半遮面っ",
+      "ownSkin": "1",
+      "cupNum": "631"
+    },
+    {
+      "id": "156",
+      "name": "痴你至终",
+      "ownSkin": "1",
+      "cupNum": "635"
+    },
+    {
+      "id": "157",
+      "name": "自由如风",
+      "ownSkin": "1",
+      "cupNum": "639"
+    },
+    {
+      "id": "158",
+      "name": "浅笑心柔",
+      "ownSkin": "1",
+      "cupNum": "643"
+    },
+    {
+      "id": "159",
+      "name": "洪荒少女~",
+      "ownSkin": "1",
+      "cupNum": "647"
+    },
+    {
+      "id": "160",
+      "name": "余生请你指教",
+      "ownSkin": "1",
+      "cupNum": "651"
+    },
+    {
+      "id": "161",
+      "name": "无处可寻。",
+      "ownSkin": "1",
+      "cupNum": "655"
+    },
+    {
+      "id": "162",
+      "name": "你是我生命里的一首歌",
+      "ownSkin": "1",
+      "cupNum": "659"
+    },
+    {
+      "id": "163",
+      "name": "群少视觉i",
+      "ownSkin": "1",
+      "cupNum": "663"
+    },
+    {
+      "id": "164",
+      "name": "-相思似海深。",
+      "ownSkin": "1",
+      "cupNum": "667"
+    },
+    {
+      "id": "165",
+      "name": "富不过三代i",
+      "ownSkin": "1",
+      "cupNum": "671"
+    },
+    {
+      "id": "166",
+      "name": "没有梦的客观",
+      "ownSkin": "1",
+      "cupNum": "675"
+    },
+    {
+      "id": "167",
+      "name": "暮色挽歌℡",
+      "ownSkin": "1",
+      "cupNum": "679"
+    },
+    {
+      "id": "168",
+      "name": "一无所有就是拼的理由",
+      "ownSkin": "1",
+      "cupNum": "683"
+    },
+    {
+      "id": "169",
+      "name": "扛起拖把扫天下",
+      "ownSkin": "1",
+      "cupNum": "687"
+    },
+    {
+      "id": "170",
+      "name": "第四人称",
+      "ownSkin": "1",
+      "cupNum": "691"
+    },
+    {
+      "id": "171",
+      "name": "无力自拔-",
+      "ownSkin": "1",
+      "cupNum": "695"
+    },
+    {
+      "id": "172",
+      "name": "伴我呼吸直至停止",
+      "ownSkin": "1",
+      "cupNum": "699"
+    },
+    {
+      "id": "173",
+      "name": "〆我们的幸福.",
+      "ownSkin": "1",
+      "cupNum": "703"
+    },
+    {
+      "id": "174",
+      "name": "继承者们",
+      "ownSkin": "1",
+      "cupNum": "707"
+    },
+    {
+      "id": "175",
+      "name": "完美N+1",
+      "ownSkin": "1",
+      "cupNum": "711"
+    },
+    {
+      "id": "176",
+      "name": "看不清你伪装",
+      "ownSkin": "1",
+      "cupNum": "715"
+    },
+    {
+      "id": "177",
+      "name": "缺爱先森",
+      "ownSkin": "1",
+      "cupNum": "719"
+    },
+    {
+      "id": "178",
+      "name": "上头条",
+      "ownSkin": "1",
+      "cupNum": "723"
+    },
+    {
+      "id": "179",
+      "name": "┉西海情謌",
+      "ownSkin": "1",
+      "cupNum": "727"
+    },
+    {
+      "id": "180",
+      "name": "ヾ淺色年華",
+      "ownSkin": "1",
+      "cupNum": "731"
+    },
+    {
+      "id": "181",
+      "name": "画皮易，画心难",
+      "ownSkin": "1",
+      "cupNum": "735"
+    },
+    {
+      "id": "182",
+      "name": "谁喷了榴莲味的香水",
+      "ownSkin": "1",
+      "cupNum": "739"
+    },
+    {
+      "id": "183",
+      "name": "扛起拖把扫天下",
+      "ownSkin": "1",
+      "cupNum": "743"
+    },
+    {
+      "id": "184",
+      "name": "半聋半哑半糊涂",
+      "ownSkin": "1",
+      "cupNum": "747"
+    },
+    {
+      "id": "185",
+      "name": "情到深处人自醉",
+      "ownSkin": "1",
+      "cupNum": "751"
+    },
+    {
+      "id": "186",
+      "name": "再续前缘",
+      "ownSkin": "1",
+      "cupNum": "755"
+    },
+    {
+      "id": "187",
+      "name": "红尘路上",
+      "ownSkin": "1",
+      "cupNum": "759"
+    },
+    {
+      "id": "188",
+      "name": "病久不治自会愈",
+      "ownSkin": "1",
+      "cupNum": "763"
+    },
+    {
+      "id": "189",
+      "name": "给梦妹一球",
+      "ownSkin": "1",
+      "cupNum": "767"
+    },
+    {
+      "id": "190",
+      "name": "谁与共岁",
+      "ownSkin": "1",
+      "cupNum": "771"
+    },
+    {
+      "id": "191",
+      "name": "相守共度白头",
+      "ownSkin": "1",
+      "cupNum": "775"
+    },
+    {
+      "id": "192",
+      "name": "不习惯你的眼神",
+      "ownSkin": "1",
+      "cupNum": "779"
+    },
+    {
+      "id": "193",
+      "name": "第1个凌晨",
+      "ownSkin": "1",
+      "cupNum": "783"
+    },
+    {
+      "id": "194",
+      "name": "残梦易凑",
+      "ownSkin": "1",
+      "cupNum": "787"
+    },
+    {
+      "id": "195",
+      "name": "夜晚的歌谣",
+      "ownSkin": "1",
+      "cupNum": "791"
+    },
+    {
+      "id": "196",
+      "name": "稀客",
+      "ownSkin": "1",
+      "cupNum": "795"
+    },
+    {
+      "id": "197",
+      "name": "花花",
+      "ownSkin": "1",
+      "cupNum": "799"
+    },
+    {
+      "id": "198",
+      "name": "小道",
+      "ownSkin": "1",
+      "cupNum": "803"
+    },
+    {
+      "id": "199",
+      "name": "朵儿",
+      "ownSkin": "1",
+      "cupNum": "807"
+    },
+    {
+      "id": "200",
+      "name": "老娘是老娘",
+      "ownSkin": "1",
+      "cupNum": "811"
+    },
+    {
+      "id": "201",
+      "name": "海常",
+      "ownSkin": "1",
+      "cupNum": "815"
+    },
+    {
+      "id": "202",
+      "name": "米兰",
+      "ownSkin": "1",
+      "cupNum": "819"
+    },
+    {
+      "id": "203",
+      "name": "獨留記憶:",
+      "ownSkin": "1",
+      "cupNum": "823"
+    },
+    {
+      "id": "204",
+      "name": "吕小布",
+      "ownSkin": "1",
+      "cupNum": "827"
+    },
+    {
+      "id": "205",
+      "name": "哥，淫领时尚",
+      "ownSkin": "1",
+      "cupNum": "831"
+    },
+    {
+      "id": "206",
+      "name": "乂日光倾城¤",
+      "ownSkin": "1",
+      "cupNum": "835"
+    },
+    {
+      "id": "207",
+      "name": "稚_小_葵",
+      "ownSkin": "1",
+      "cupNum": "839"
+    },
+    {
+      "id": "208",
+      "name": "孤单心事゜",
+      "ownSkin": "1",
+      "cupNum": "843"
+    },
+    {
+      "id": "209",
+      "name": "飞月",
+      "ownSkin": "1",
+      "cupNum": "847"
+    },
+    {
+      "id": "210",
+      "name": "King",
+      "ownSkin": "1",
+      "cupNum": "851"
+    },
+    {
+      "id": "211",
+      "name": "世界没变，我们变了",
+      "ownSkin": "1",
+      "cupNum": "855"
+    },
+    {
+      "id": "212",
+      "name": "鱼忆七秒°",
+      "ownSkin": "1",
+      "cupNum": "859"
+    },
+    {
+      "id": "213",
+      "name": "花茶Monstar 8°",
+      "ownSkin": "1",
+      "cupNum": "863"
+    },
+    {
+      "id": "214",
+      "name": "先生ヽ我会很诚实",
+      "ownSkin": "1",
+      "cupNum": "867"
+    }
+  ],
+  "daySign": [
+    {
+      "id": "1",
+      "day": "1",
+      "rewardType": "1",
+      "rewardNum": "400",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "2",
+      "day": "2",
+      "rewardType": "1",
+      "rewardNum": "600",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "3",
+      "day": "3",
+      "rewardType": "1",
+      "rewardNum": "800",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "4",
+      "day": "4",
+      "rewardType": "1",
+      "rewardNum": "1000",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "5",
+      "day": "5",
+      "rewardType": "1",
+      "rewardNum": "1200",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "6",
+      "day": "6",
+      "rewardType": "1",
+      "rewardNum": "1500",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "7",
+      "day": "7",
+      "rewardType": "0",
+      "rewardNum": "1000",
+      "specialSkinId": "10"
+    },
+    {
+      "id": "8",
+      "day": "1",
+      "rewardType": "1",
+      "rewardNum": "500",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "9",
+      "day": "2",
+      "rewardType": "1",
+      "rewardNum": "600",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "10",
+      "day": "3",
+      "rewardType": "1",
+      "rewardNum": "800",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "11",
+      "day": "4",
+      "rewardType": "1",
+      "rewardNum": "1000",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "12",
+      "day": "5",
+      "rewardType": "1",
+      "rewardNum": "1200",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "13",
+      "day": "6",
+      "rewardType": "1",
+      "rewardNum": "1500",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "14",
+      "day": "7",
+      "rewardType": "1",
+      "rewardNum": "2000",
+      "specialSkinId": "0"
+    }
+  ],
+  "daySign2": [
+    {
+      "id": "1",
+      "day": "1",
+      "rewardType": "1",
+      "rewardNum": "400",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "2",
+      "day": "2",
+      "rewardType": "1",
+      "rewardNum": "600",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "3",
+      "day": "3",
+      "rewardType": "1",
+      "rewardNum": "800",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "4",
+      "day": "4",
+      "rewardType": "1",
+      "rewardNum": "1000",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "5",
+      "day": "5",
+      "rewardType": "1",
+      "rewardNum": "1200",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "6",
+      "day": "6",
+      "rewardType": "1",
+      "rewardNum": "1500",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "7",
+      "day": "7",
+      "rewardType": "0",
+      "rewardNum": "1000",
+      "specialSkinId": "10"
+    },
+    {
+      "id": "8",
+      "day": "1",
+      "rewardType": "1",
+      "rewardNum": "400",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "9",
+      "day": "2",
+      "rewardType": "1",
+      "rewardNum": "600",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "10",
+      "day": "3",
+      "rewardType": "1",
+      "rewardNum": "800",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "11",
+      "day": "4",
+      "rewardType": "1",
+      "rewardNum": "1000",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "12",
+      "day": "5",
+      "rewardType": "1",
+      "rewardNum": "1200",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "13",
+      "day": "6",
+      "rewardType": "1",
+      "rewardNum": "1500",
+      "specialSkinId": "0"
+    },
+    {
+      "id": "14",
+      "day": "7",
+      "rewardType": "1",
+      "rewardNum": "2000",
+      "specialSkinId": "0"
+    }
+  ],
+  "grad": [
+    {
+      "id": "1",
+      "name": "1阶黑铁",
+      "cupNum": "0",
+      "resource": "grad1",
+      "isReduceCup": "0",
+      "isReduceGrad": "0",
+      "unlockScene": "1",
+      "unlockSkin": "1|2",
+      "addNum": "1",
+      "putAi": "1:1-1,101:20-20",
+      "propRandom": "0|0"
+    },
+    {
+      "id": "2",
+      "name": "1阶青铜",
+      "cupNum": "30",
+      "resource": "grad2",
+      "isReduceCup": "0",
+      "isReduceGrad": "0",
+      "unlockScene": "1",
+      "unlockSkin": "3|4",
+      "addNum": "3",
+      "putAi": "1:1-2,101:20-20",
+      "propRandom": "0|1"
+    },
+    {
+      "id": "3",
+      "name": "2阶青铜",
+      "cupNum": "70",
+      "resource": "grad2",
+      "isReduceCup": "0",
+      "isReduceGrad": "0",
+      "unlockScene": "1",
+      "unlockSkin": "19",
+      "addNum": "4",
+      "putAi": "1:3-5,101:20-20",
+      "propRandom": "0|2"
+    },
+    {
+      "id": "4",
+      "name": "1阶白银",
+      "cupNum": "120",
+      "resource": "grad3",
+      "isReduceCup": "0",
+      "isReduceGrad": "0",
+      "unlockScene": "1",
+      "unlockSkin": "5",
+      "addNum": "6",
+      "putAi": "1:1-2,2:1-2,101:20-20",
+      "propRandom": "0|3"
+    },
+    {
+      "id": "5",
+      "name": "2阶白银",
+      "cupNum": "180",
+      "resource": "grad3",
+      "isReduceCup": "0",
+      "isReduceGrad": "0",
+      "unlockScene": "1",
+      "unlockSkin": "12",
+      "addNum": "7",
+      "putAi": "1:1-2,2:3-4,101:20-20",
+      "propRandom": "1|5"
+    },
+    {
+      "id": "6",
+      "name": "1阶黄金",
+      "cupNum": "250",
+      "resource": "grad4",
+      "isReduceCup": "0",
+      "isReduceGrad": "0",
+      "unlockScene": "1",
+      "unlockSkin": "14",
+      "addNum": "9",
+      "putAi": "1:1-2,2:4-6,101:20-20",
+      "propRandom": "3|10"
+    },
+    {
+      "id": "7",
+      "name": "2阶黄金",
+      "cupNum": "330",
+      "resource": "grad4",
+      "isReduceCup": "0",
+      "isReduceGrad": "0",
+      "unlockScene": "1",
+      "unlockSkin": "16",
+      "addNum": "10",
+      "putAi": "3:1-2,2:3-4,101:20-20",
+      "propRandom": "5|15"
+    },
+    {
+      "id": "8",
+      "name": "1阶星耀",
+      "cupNum": "420",
+      "resource": "grad5",
+      "isReduceCup": "1",
+      "isReduceGrad": "0",
+      "unlockScene": "1",
+      "unlockSkin": "0",
+      "addNum": "12",
+      "putAi": "2:2-4,4:1-2,101:2-3,3:20-20",
+      "propRandom": "7|20"
+    },
+    {
+      "id": "9",
+      "name": "2阶星耀",
+      "cupNum": "550",
+      "resource": "grad5",
+      "isReduceCup": "1",
+      "isReduceGrad": "0",
+      "unlockScene": "1",
+      "unlockSkin": "17",
+      "addNum": "13",
+      "putAi": "2:2-4,5:1-2,101:0-1,4:20-20",
+      "propRandom": "10|25"
+    },
+    {
+      "id": "10",
+      "name": "1阶铂金",
+      "cupNum": "700",
+      "resource": "grad6",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "23",
+      "addNum": "15",
+      "putAi": "4:2-3,6:2-3,101:1-2,3:20-20",
+      "propRandom": "14|30"
+    },
+    {
+      "id": "11",
+      "name": "2阶铂金",
+      "cupNum": "900",
+      "resource": "grad6",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "18",
+      "addNum": "16",
+      "putAi": "4:2-3,6:3-4,101:1-2,5:20-20",
+      "propRandom": "18|35"
+    },
+    {
+      "id": "12",
+      "name": "3阶铂金",
+      "cupNum": "1200",
+      "resource": "grad6",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "15",
+      "addNum": "17",
+      "putAi": "5:1-2,7:5-6,6:20-20,101:0-1",
+      "propRandom": "22|40"
+    },
+    {
+      "id": "13",
+      "name": "1阶钻石",
+      "cupNum": "1500",
+      "resource": "grad7",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "24",
+      "addNum": "19",
+      "putAi": "6:2-3,8:3-4,7:20-20,101:0-1",
+      "propRandom": "26|45"
+    },
+    {
+      "id": "14",
+      "name": "2阶钻石",
+      "cupNum": "2000",
+      "resource": "grad7",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "32",
+      "addNum": "20",
+      "putAi": "7:2-3,9:3-4,10:0-1,8:20-20,101:0-1",
+      "propRandom": "30|50"
+    },
+    {
+      "id": "15",
+      "name": "3阶钻石",
+      "cupNum": "2600",
+      "resource": "grad7",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "0",
+      "addNum": "21",
+      "putAi": "9:1-2,11:5-6,10:20-20,101:0-1",
+      "propRandom": "35|55"
+    },
+    {
+      "id": "16",
+      "name": "1阶战神",
+      "cupNum": "3500",
+      "resource": "grad8",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "0",
+      "addNum": "24",
+      "putAi": "9:2-3,11:3-4,12:3-4,10:20-20",
+      "propRandom": "40|60"
+    },
+    {
+      "id": "17",
+      "name": "2阶战神",
+      "cupNum": "5500",
+      "resource": "grad8",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "0",
+      "addNum": "25",
+      "putAi": "10:3-4,12:3-4,13:2-3,11:20-20",
+      "propRandom": "45|70"
+    },
+    {
+      "id": "18",
+      "name": "3阶战神",
+      "cupNum": "7000",
+      "resource": "grad8",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "0",
+      "addNum": "26",
+      "putAi": "10:0-1,12:6-7,13:2-3,11:20-20",
+      "propRandom": "50|80"
+    },
+    {
+      "id": "19",
+      "name": "1阶王者",
+      "cupNum": "9000",
+      "resource": "grad9",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "0",
+      "addNum": "29",
+      "putAi": "10:0-1,11:7-8,13:2-3,12:20-20",
+      "propRandom": "55|90"
+    },
+    {
+      "id": "20",
+      "name": "2阶王者",
+      "cupNum": "10000",
+      "resource": "grad9",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "0",
+      "addNum": "30",
+      "putAi": "11:0-1,13:3-5,14:2-3,12:20-20",
+      "propRandom": "60|110"
+    },
+    {
+      "id": "21",
+      "name": "3阶王者",
+      "cupNum": "13000",
+      "resource": "grad9",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "0",
+      "addNum": "31",
+      "putAi": "11:0-1,13:3-5,14:5-8,12:20-20",
+      "propRandom": "70|130"
+    },
+    {
+      "id": "22",
+      "name": "4阶王者",
+      "cupNum": "20000",
+      "resource": "grad9",
+      "isReduceCup": "1",
+      "isReduceGrad": "1",
+      "unlockScene": "1",
+      "unlockSkin": "0",
+      "addNum": "32",
+      "putAi": "13:4-6,14:5-7,15:20-20",
+      "propRandom": "80|150"
+    }
+  ],
+  "loginReward": [
+    {
+      "id": "1",
+      "type": "1",
+      "limitDay": "5",
+      "desc": "连续登录5天",
+      "rewardType": "1",
+      "rewardNum": "0",
+      "specialSkinId": "42"
+    },
+    {
+      "id": "2",
+      "type": "1",
+      "limitDay": "10",
+      "desc": "连续登录10天",
+      "rewardType": "1",
+      "rewardNum": "0",
+      "specialSkinId": "43"
+    },
+    {
+      "id": "3",
+      "type": "2",
+      "limitDay": "20",
+      "desc": "累计登录20天",
+      "rewardType": "1",
+      "rewardNum": "0",
+      "specialSkinId": "44"
+    },
+    {
+      "id": "4",
+      "type": "2",
+      "limitDay": "40",
+      "desc": "累计登录40天",
+      "rewardType": "1",
+      "rewardNum": "0",
+      "specialSkinId": "45"
+    }
+  ],
+  "propEffect": [
+    {
+      "value": "0",
+      "moveSpeed": "0",
+      "critChance": "0"
+    },
+    {
+      "value": "1",
+      "moveSpeed": "0.01",
+      "critChance": "0.008"
+    },
+    {
+      "value": "2",
+      "moveSpeed": "0.02",
+      "critChance": "0.016"
+    },
+    {
+      "value": "3",
+      "moveSpeed": "0.03",
+      "critChance": "0.024"
+    },
+    {
+      "value": "4",
+      "moveSpeed": "0.04",
+      "critChance": "0.032"
+    },
+    {
+      "value": "5",
+      "moveSpeed": "0.05",
+      "critChance": "0.04"
+    },
+    {
+      "value": "6",
+      "moveSpeed": "0.06",
+      "critChance": "0.048"
+    },
+    {
+      "value": "7",
+      "moveSpeed": "0.07",
+      "critChance": "0.056"
+    },
+    {
+      "value": "8",
+      "moveSpeed": "0.08",
+      "critChance": "0.064"
+    },
+    {
+      "value": "9",
+      "moveSpeed": "0.087",
+      "critChance": "0.072"
+    },
+    {
+      "value": "10",
+      "moveSpeed": "0.094",
+      "critChance": "0.08"
+    },
+    {
+      "value": "11",
+      "moveSpeed": "0.101",
+      "critChance": "0.086"
+    },
+    {
+      "value": "12",
+      "moveSpeed": "0.108",
+      "critChance": "0.092"
+    },
+    {
+      "value": "13",
+      "moveSpeed": "0.115",
+      "critChance": "0.098"
+    },
+    {
+      "value": "14",
+      "moveSpeed": "0.122",
+      "critChance": "0.104"
+    },
+    {
+      "value": "15",
+      "moveSpeed": "0.129",
+      "critChance": "0.11"
+    },
+    {
+      "value": "16",
+      "moveSpeed": "0.136",
+      "critChance": "0.116"
+    },
+    {
+      "value": "17",
+      "moveSpeed": "0.139",
+      "critChance": "0.122"
+    },
+    {
+      "value": "18",
+      "moveSpeed": "0.142",
+      "critChance": "0.128"
+    },
+    {
+      "value": "19",
+      "moveSpeed": "0.145",
+      "critChance": "0.134"
+    },
+    {
+      "value": "20",
+      "moveSpeed": "0.148",
+      "critChance": "0.14"
+    },
+    {
+      "value": "21",
+      "moveSpeed": "0.151",
+      "critChance": "0.143"
+    },
+    {
+      "value": "22",
+      "moveSpeed": "0.154",
+      "critChance": "0.146"
+    },
+    {
+      "value": "23",
+      "moveSpeed": "0.157",
+      "critChance": "0.149"
+    },
+    {
+      "value": "24",
+      "moveSpeed": "0.16",
+      "critChance": "0.152"
+    },
+    {
+      "value": "25",
+      "moveSpeed": "0.163",
+      "critChance": "0.155"
+    },
+    {
+      "value": "26",
+      "moveSpeed": "0.166",
+      "critChance": "0.158"
+    },
+    {
+      "value": "27",
+      "moveSpeed": "0.169",
+      "critChance": "0.161"
+    },
+    {
+      "value": "28",
+      "moveSpeed": "0.172",
+      "critChance": "0.164"
+    },
+    {
+      "value": "29",
+      "moveSpeed": "0.175",
+      "critChance": "0.167"
+    },
+    {
+      "value": "30",
+      "moveSpeed": "0.178",
+      "critChance": "0.17"
+    },
+    {
+      "value": "31",
+      "moveSpeed": "0.181",
+      "critChance": "0.173"
+    },
+    {
+      "value": "32",
+      "moveSpeed": "0.184",
+      "critChance": "0.176"
+    },
+    {
+      "value": "33",
+      "moveSpeed": "0.187",
+      "critChance": "0.179"
+    },
+    {
+      "value": "34",
+      "moveSpeed": "0.19",
+      "critChance": "0.182"
+    },
+    {
+      "value": "35",
+      "moveSpeed": "0.192",
+      "critChance": "0.185"
+    },
+    {
+      "value": "36",
+      "moveSpeed": "0.194",
+      "critChance": "0.188"
+    },
+    {
+      "value": "37",
+      "moveSpeed": "0.196",
+      "critChance": "0.191"
+    },
+    {
+      "value": "38",
+      "moveSpeed": "0.198",
+      "critChance": "0.194"
+    },
+    {
+      "value": "39",
+      "moveSpeed": "0.2",
+      "critChance": "0.197"
+    },
+    {
+      "value": "40",
+      "moveSpeed": "0.202",
+      "critChance": "0.2"
+    },
+    {
+      "value": "41",
+      "moveSpeed": "0.204",
+      "critChance": "0.202"
+    },
+    {
+      "value": "42",
+      "moveSpeed": "0.206",
+      "critChance": "0.204"
+    },
+    {
+      "value": "43",
+      "moveSpeed": "0.208",
+      "critChance": "0.206"
+    },
+    {
+      "value": "44",
+      "moveSpeed": "0.21",
+      "critChance": "0.208"
+    },
+    {
+      "value": "45",
+      "moveSpeed": "0.212",
+      "critChance": "0.21"
+    },
+    {
+      "value": "46",
+      "moveSpeed": "0.214",
+      "critChance": "0.212"
+    },
+    {
+      "value": "47",
+      "moveSpeed": "0.216",
+      "critChance": "0.214"
+    },
+    {
+      "value": "48",
+      "moveSpeed": "0.218",
+      "critChance": "0.216"
+    },
+    {
+      "value": "49",
+      "moveSpeed": "0.22",
+      "critChance": "0.218"
+    },
+    {
+      "value": "50",
+      "moveSpeed": "0.222",
+      "critChance": "0.22"
+    },
+    {
+      "value": "51",
+      "moveSpeed": "0.224",
+      "critChance": "0.222"
+    },
+    {
+      "value": "52",
+      "moveSpeed": "0.226",
+      "critChance": "0.224"
+    },
+    {
+      "value": "53",
+      "moveSpeed": "0.228",
+      "critChance": "0.226"
+    },
+    {
+      "value": "54",
+      "moveSpeed": "0.23",
+      "critChance": "0.228"
+    },
+    {
+      "value": "55",
+      "moveSpeed": "0.232",
+      "critChance": "0.23"
+    },
+    {
+      "value": "56",
+      "moveSpeed": "0.234",
+      "critChance": "0.232"
+    },
+    {
+      "value": "57",
+      "moveSpeed": "0.236",
+      "critChance": "0.234"
+    },
+    {
+      "value": "58",
+      "moveSpeed": "0.238",
+      "critChance": "0.236"
+    },
+    {
+      "value": "59",
+      "moveSpeed": "0.24",
+      "critChance": "0.238"
+    },
+    {
+      "value": "60",
+      "moveSpeed": "0.242",
+      "critChance": "0.24"
+    },
+    {
+      "value": "61",
+      "moveSpeed": "0.244",
+      "critChance": "0.242"
+    },
+    {
+      "value": "62",
+      "moveSpeed": "0.246",
+      "critChance": "0.244"
+    },
+    {
+      "value": "63",
+      "moveSpeed": "0.248",
+      "critChance": "0.246"
+    },
+    {
+      "value": "64",
+      "moveSpeed": "0.25",
+      "critChance": "0.248"
+    },
+    {
+      "value": "65",
+      "moveSpeed": "0.252",
+      "critChance": "0.25"
+    },
+    {
+      "value": "66",
+      "moveSpeed": "0.254",
+      "critChance": "0.252"
+    },
+    {
+      "value": "67",
+      "moveSpeed": "0.256",
+      "critChance": "0.254"
+    },
+    {
+      "value": "68",
+      "moveSpeed": "0.258",
+      "critChance": "0.256"
+    },
+    {
+      "value": "69",
+      "moveSpeed": "0.26",
+      "critChance": "0.258"
+    },
+    {
+      "value": "70",
+      "moveSpeed": "0.262",
+      "critChance": "0.26"
+    },
+    {
+      "value": "71",
+      "moveSpeed": "0.264",
+      "critChance": "0.262"
+    },
+    {
+      "value": "72",
+      "moveSpeed": "0.266",
+      "critChance": "0.264"
+    },
+    {
+      "value": "73",
+      "moveSpeed": "0.268",
+      "critChance": "0.266"
+    },
+    {
+      "value": "74",
+      "moveSpeed": "0.27",
+      "critChance": "0.268"
+    },
+    {
+      "value": "75",
+      "moveSpeed": "0.272",
+      "critChance": "0.27"
+    },
+    {
+      "value": "76",
+      "moveSpeed": "0.274",
+      "critChance": "0.272"
+    },
+    {
+      "value": "77",
+      "moveSpeed": "0.276",
+      "critChance": "0.274"
+    },
+    {
+      "value": "78",
+      "moveSpeed": "0.278",
+      "critChance": "0.276"
+    },
+    {
+      "value": "79",
+      "moveSpeed": "0.28",
+      "critChance": "0.278"
+    },
+    {
+      "value": "80",
+      "moveSpeed": "0.282",
+      "critChance": "0.28"
+    },
+    {
+      "value": "81",
+      "moveSpeed": "0.284",
+      "critChance": "0.282"
+    },
+    {
+      "value": "82",
+      "moveSpeed": "0.286",
+      "critChance": "0.284"
+    },
+    {
+      "value": "83",
+      "moveSpeed": "0.288",
+      "critChance": "0.286"
+    },
+    {
+      "value": "84",
+      "moveSpeed": "0.29",
+      "critChance": "0.288"
+    },
+    {
+      "value": "85",
+      "moveSpeed": "0.292",
+      "critChance": "0.29"
+    },
+    {
+      "value": "86",
+      "moveSpeed": "0.294",
+      "critChance": "0.292"
+    },
+    {
+      "value": "87",
+      "moveSpeed": "0.296",
+      "critChance": "0.294"
+    },
+    {
+      "value": "88",
+      "moveSpeed": "0.298",
+      "critChance": "0.296"
+    },
+    {
+      "value": "89",
+      "moveSpeed": "0.3",
+      "critChance": "0.298"
+    },
+    {
+      "value": "90",
+      "moveSpeed": "0.302",
+      "critChance": "0.3"
+    },
+    {
+      "value": "91",
+      "moveSpeed": "0.304",
+      "critChance": "0.302"
+    },
+    {
+      "value": "92",
+      "moveSpeed": "0.306",
+      "critChance": "0.304"
+    },
+    {
+      "value": "93",
+      "moveSpeed": "0.308",
+      "critChance": "0.306"
+    },
+    {
+      "value": "94",
+      "moveSpeed": "0.31",
+      "critChance": "0.308"
+    },
+    {
+      "value": "95",
+      "moveSpeed": "0.312",
+      "critChance": "0.31"
+    },
+    {
+      "value": "96",
+      "moveSpeed": "0.314",
+      "critChance": "0.312"
+    },
+    {
+      "value": "97",
+      "moveSpeed": "0.316",
+      "critChance": "0.314"
+    },
+    {
+      "value": "98",
+      "moveSpeed": "0.318",
+      "critChance": "0.316"
+    },
+    {
+      "value": "99",
+      "moveSpeed": "0.32",
+      "critChance": "0.318"
+    },
+    {
+      "value": "100",
+      "moveSpeed": "0.322",
+      "critChance": "0.32"
+    },
+    {
+      "value": "101",
+      "moveSpeed": "0.323",
+      "critChance": "0.321"
+    },
+    {
+      "value": "102",
+      "moveSpeed": "0.324",
+      "critChance": "0.322"
+    },
+    {
+      "value": "103",
+      "moveSpeed": "0.325",
+      "critChance": "0.323"
+    },
+    {
+      "value": "104",
+      "moveSpeed": "0.326",
+      "critChance": "0.324"
+    },
+    {
+      "value": "105",
+      "moveSpeed": "0.327",
+      "critChance": "0.325"
+    },
+    {
+      "value": "106",
+      "moveSpeed": "0.328",
+      "critChance": "0.326"
+    },
+    {
+      "value": "107",
+      "moveSpeed": "0.329",
+      "critChance": "0.327"
+    },
+    {
+      "value": "108",
+      "moveSpeed": "0.33",
+      "critChance": "0.328"
+    },
+    {
+      "value": "109",
+      "moveSpeed": "0.331",
+      "critChance": "0.329"
+    },
+    {
+      "value": "110",
+      "moveSpeed": "0.332",
+      "critChance": "0.33"
+    },
+    {
+      "value": "111",
+      "moveSpeed": "0.333",
+      "critChance": "0.331"
+    },
+    {
+      "value": "112",
+      "moveSpeed": "0.334",
+      "critChance": "0.332"
+    },
+    {
+      "value": "113",
+      "moveSpeed": "0.335",
+      "critChance": "0.333"
+    },
+    {
+      "value": "114",
+      "moveSpeed": "0.336",
+      "critChance": "0.334"
+    },
+    {
+      "value": "115",
+      "moveSpeed": "0.337",
+      "critChance": "0.335"
+    },
+    {
+      "value": "116",
+      "moveSpeed": "0.338",
+      "critChance": "0.336"
+    },
+    {
+      "value": "117",
+      "moveSpeed": "0.339",
+      "critChance": "0.337"
+    },
+    {
+      "value": "118",
+      "moveSpeed": "0.34",
+      "critChance": "0.338"
+    },
+    {
+      "value": "119",
+      "moveSpeed": "0.341",
+      "critChance": "0.339"
+    },
+    {
+      "value": "120",
+      "moveSpeed": "0.342",
+      "critChance": "0.34"
+    },
+    {
+      "value": "121",
+      "moveSpeed": "0.343",
+      "critChance": "0.341"
+    },
+    {
+      "value": "122",
+      "moveSpeed": "0.344",
+      "critChance": "0.342"
+    },
+    {
+      "value": "123",
+      "moveSpeed": "0.345",
+      "critChance": "0.343"
+    },
+    {
+      "value": "124",
+      "moveSpeed": "0.346",
+      "critChance": "0.344"
+    },
+    {
+      "value": "125",
+      "moveSpeed": "0.347",
+      "critChance": "0.345"
+    },
+    {
+      "value": "126",
+      "moveSpeed": "0.348",
+      "critChance": "0.346"
+    },
+    {
+      "value": "127",
+      "moveSpeed": "0.349",
+      "critChance": "0.347"
+    },
+    {
+      "value": "128",
+      "moveSpeed": "0.35",
+      "critChance": "0.348"
+    },
+    {
+      "value": "129",
+      "moveSpeed": "0.351",
+      "critChance": "0.349"
+    },
+    {
+      "value": "130",
+      "moveSpeed": "0.352",
+      "critChance": "0.35"
+    },
+    {
+      "value": "131",
+      "moveSpeed": "0.353",
+      "critChance": "0.351"
+    },
+    {
+      "value": "132",
+      "moveSpeed": "0.354",
+      "critChance": "0.352"
+    },
+    {
+      "value": "133",
+      "moveSpeed": "0.355",
+      "critChance": "0.353"
+    },
+    {
+      "value": "134",
+      "moveSpeed": "0.356",
+      "critChance": "0.354"
+    },
+    {
+      "value": "135",
+      "moveSpeed": "0.357",
+      "critChance": "0.355"
+    },
+    {
+      "value": "136",
+      "moveSpeed": "0.358",
+      "critChance": "0.356"
+    },
+    {
+      "value": "137",
+      "moveSpeed": "0.359",
+      "critChance": "0.357"
+    },
+    {
+      "value": "138",
+      "moveSpeed": "0.36",
+      "critChance": "0.358"
+    },
+    {
+      "value": "139",
+      "moveSpeed": "0.361",
+      "critChance": "0.359"
+    },
+    {
+      "value": "140",
+      "moveSpeed": "0.362",
+      "critChance": "0.36"
+    },
+    {
+      "value": "141",
+      "moveSpeed": "0.363",
+      "critChance": "0.361"
+    },
+    {
+      "value": "142",
+      "moveSpeed": "0.364",
+      "critChance": "0.362"
+    },
+    {
+      "value": "143",
+      "moveSpeed": "0.365",
+      "critChance": "0.363"
+    },
+    {
+      "value": "144",
+      "moveSpeed": "0.366",
+      "critChance": "0.364"
+    },
+    {
+      "value": "145",
+      "moveSpeed": "0.367",
+      "critChance": "0.365"
+    },
+    {
+      "value": "146",
+      "moveSpeed": "0.368",
+      "critChance": "0.366"
+    },
+    {
+      "value": "147",
+      "moveSpeed": "0.369",
+      "critChance": "0.367"
+    },
+    {
+      "value": "148",
+      "moveSpeed": "0.37",
+      "critChance": "0.368"
+    },
+    {
+      "value": "149",
+      "moveSpeed": "0.371",
+      "critChance": "0.369"
+    },
+    {
+      "value": "150",
+      "moveSpeed": "0.372",
+      "critChance": "0.37"
+    }
+  ],
+  "props": [
+    {
+      "id": "1",
+      "propType": "0",
+      "name": "移速",
+      "desc": "移动速度永久增加{0}",
+      "needGold": "20",
+      "goldGrow": "1.18",
+      "initValue": "0",
+      "valueGrow": "1",
+      "lvMax": "150"
+    },
+    {
+      "id": "2",
+      "propType": "1",
+      "name": "人数",
+      "desc": "初始人数永久增加{0}",
+      "needGold": "200",
+      "goldGrow": "1.5",
+      "initValue": "0",
+      "valueGrow": "1",
+      "lvMax": "150"
+    },
+    {
+      "id": "3",
+      "propType": "2",
+      "name": "好运",
+      "desc": "吸收白色小人变为2人的可能增加{0}",
+      "needGold": "20",
+      "goldGrow": "1.18",
+      "initValue": "0",
+      "valueGrow": "1",
+      "lvMax": "150"
+    },
+    {
+      "id": "4",
+      "propType": "3",
+      "name": "离线收益",
+      "desc": "离线期间每10分钟赚取{0}金币",
+      "needGold": "20",
+      "goldGrow": "1.18",
+      "initValue": "50",
+      "valueGrow": "0.5",
+      "lvMax": "150"
+    }
+  ],
+  "scene": [
+    {
+      "id": "1",
+      "name": "默认地图",
+      "map": "scene0",
+      "playerLimit": "10"
+    }
+  ],
+  "skin": [
+    {
+      "id": "1",
+      "sort": "1",
+      "name": "默认",
+      "model": "wild",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "0",
+      "getTips": "前往竞技获取",
+      "unlockRank": "1",
+      "skinShowExp": "1"
+    },
+    {
+      "id": "2",
+      "sort": "114",
+      "name": "工程师",
+      "model": "worker",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "20",
+      "getTips": "前往竞技获取",
+      "unlockRank": "1",
+      "skinShowExp": "2"
+    },
+    {
+      "id": "3",
+      "sort": "115",
+      "name": "快递员",
+      "model": "hat",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "30",
+      "getTips": "到达2阶青铜解锁",
+      "unlockRank": "2",
+      "skinShowExp": "3"
+    },
+    {
+      "id": "4",
+      "sort": "116",
+      "name": "小兵",
+      "model": "army",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "40",
+      "getTips": "到达2阶青铜解锁",
+      "unlockRank": "2",
+      "skinShowExp": "4"
+    },
+    {
+      "id": "5",
+      "sort": "117",
+      "name": "和尚",
+      "model": "monk",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "70",
+      "getTips": "到达1阶白银解锁",
+      "unlockRank": "4",
+      "skinShowExp": "7"
+    },
+    {
+      "id": "6",
+      "sort": "118",
+      "name": "E.T.",
+      "model": "et",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "使用金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "49",
+      "consumeGold": "68888"
+    },
+    {
+      "id": "7",
+      "sort": "7",
+      "name": "匪徒",
+      "model": "robber",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "前往邀请获取",
+      "unlockRank": "99",
+      "skinShowExp": "60"
+    },
+    {
+      "id": "8",
+      "sort": "8",
+      "name": "墨镜",
+      "model": "neo",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "前往邀请获取",
+      "unlockRank": "99",
+      "skinShowExp": "45"
+    },
+    {
+      "id": "9",
+      "sort": "119",
+      "name": "角斗士",
+      "model": "rome",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "使用金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "6",
+      "consumeGold": "12888",
+      "try": "1"
+    },
+    {
+      "id": "10",
+      "sort": "120",
+      "name": "小熊",
+      "model": "bear",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "连续登陆7天领取",
+      "unlockRank": "99",
+      "skinShowExp": "15"
+    },
+    {
+      "id": "11",
+      "sort": "6",
+      "name": "熊猫",
+      "model": "panda",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "前往邀请获取",
+      "unlockRank": "99",
+      "skinShowExp": "30"
+    },
+    {
+      "id": "12",
+      "sort": "121",
+      "name": "小猫",
+      "model": "cat",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "90",
+      "getTips": "到达2阶白银解锁",
+      "unlockRank": "5",
+      "skinShowExp": "9"
+    },
+    {
+      "id": "13",
+      "sort": "122",
+      "name": "老虎",
+      "model": "tiger",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "使用金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "19",
+      "consumeGold": "38888",
+      "try": "1"
+    },
+    {
+      "id": "14",
+      "sort": "123",
+      "name": "小丑",
+      "model": "clown",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "100",
+      "getTips": "到达1阶黄金解锁",
+      "unlockRank": "6",
+      "skinShowExp": "10",
+      "try": "1"
+    },
+    {
+      "id": "15",
+      "sort": "124",
+      "name": "拳王",
+      "model": "boxer",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "240",
+      "getTips": "到达3阶铂金解锁",
+      "unlockRank": "12",
+      "skinShowExp": "24",
+      "try": "1"
+    },
+    {
+      "id": "16",
+      "sort": "125",
+      "name": "大妈",
+      "model": "aunt",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "110",
+      "getTips": "到达2阶黄金解锁",
+      "unlockRank": "7",
+      "skinShowExp": "11",
+      "try": "1"
+    },
+    {
+      "id": "17",
+      "sort": "126",
+      "name": "警察",
+      "model": "cop",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "120",
+      "getTips": "到达2阶星耀解锁",
+      "unlockRank": "9",
+      "skinShowExp": "12",
+      "try": "1"
+    },
+    {
+      "id": "18",
+      "sort": "127",
+      "name": "比基尼",
+      "model": "bikini",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "200",
+      "getTips": "到达2阶铂金解锁",
+      "unlockRank": "11",
+      "skinShowExp": "20",
+      "try": "1"
+    },
+    {
+      "id": "19",
+      "sort": "128",
+      "name": "厨师",
+      "model": "cook",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "50",
+      "getTips": "到达2阶青铜解锁",
+      "unlockRank": "3",
+      "skinShowExp": "5"
+    },
+    {
+      "id": "20",
+      "sort": "12",
+      "name": "侠客",
+      "model": "xiake",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "前往邀请获取",
+      "unlockRank": "99",
+      "skinShowExp": "30",
+      "showNeed": "1"
+    },
+    {
+      "id": "21",
+      "sort": "13",
+      "name": "机器人",
+      "model": "robot",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "前往转盘获取",
+      "unlockRank": "99",
+      "skinShowExp": "30"
+    },
+    {
+      "id": "23",
+      "sort": "129",
+      "name": "猎豹",
+      "model": "leopard",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "160",
+      "getTips": "到达1阶铂金解锁",
+      "unlockRank": "10",
+      "skinShowExp": "16",
+      "try": "1"
+    },
+    {
+      "id": "24",
+      "sort": "130",
+      "name": "粉红猪",
+      "model": "pig",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "280",
+      "getTips": "到达1阶钻石解锁",
+      "unlockRank": "13",
+      "skinShowExp": "30",
+      "try": "1"
+    },
+    {
+      "id": "25",
+      "sort": "10",
+      "name": "送福童子",
+      "model": "newyear",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "观看视频或金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "60",
+      "consumeGold": "98888",
+      "videoNeed": "45"
+    },
+    {
+      "id": "26",
+      "sort": "3",
+      "name": "御宅一族",
+      "model": "zhai",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "观看视频或金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "12",
+      "consumeGold": "22888",
+      "videoNeed": "15"
+    },
+    {
+      "id": "27",
+      "sort": "2",
+      "name": "小学生",
+      "model": "student",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "观看视频或金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "5",
+      "consumeGold": "10888",
+      "videoNeed": "10"
+    },
+    {
+      "id": "28",
+      "sort": "4",
+      "name": "粉红兔",
+      "model": "rabbit",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "观看视频或金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "16",
+      "consumeGold": "35888",
+      "videoNeed": "20"
+    },
+    {
+      "id": "29",
+      "sort": "5",
+      "name": "海盗",
+      "model": "pirate",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "观看视频或金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "42",
+      "consumeGold": "58888",
+      "videoNeed": "30"
+    },
+    {
+      "id": "30",
+      "sort": "9",
+      "name": "面具",
+      "model": "mask",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "观看视频或金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "55",
+      "consumeGold": "88888",
+      "videoNeed": "40"
+    },
+    {
+      "id": "31",
+      "sort": "11",
+      "name": "薮猫",
+      "model": "catgirl",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "观看视频或金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "70",
+      "consumeGold": "128888",
+      "videoNeed": "50"
+    },
+    {
+      "id": "32",
+      "sort": "131",
+      "name": "牛仔",
+      "model": "cowboy",
+      "width": "6.72",
+      "height": "6.16",
+      "needFragCnt": "280",
+      "getTips": "到达2阶钻石解锁",
+      "unlockRank": "14",
+      "skinShowExp": "30",
+      "try": "1"
+    },
+    {
+      "id": "33",
+      "sort": "14",
+      "name": "南瓜头",
+      "model": "pumpkin",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "观看视频或金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "49",
+      "consumeGold": "42888",
+      "videoNeed": "25"
+    },
+    {
+      "id": "34",
+      "sort": "15",
+      "name": "恶作剧",
+      "model": "ghost",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "观看视频或金币购买",
+      "unlockRank": "99",
+      "skinShowExp": "70",
+      "consumeGold": "128888",
+      "videoNeed": "50"
+    },
+    {
+      "id": "35",
+      "sort": "1",
+      "name": "嫦娥仙子",
+      "model": "change",
+      "width": "5.6",
+      "height": "6.44",
+      "needFragCnt": "999",
+      "getTips": "中秋限定皮肤",
+      "unlockRank": "99",
+      "skinShowExp": "70"
+    }
+  ],
+  "skinLimit": [
+    {
+      "id": "1",
+      "skinId": "11",
+      "needCount": "3"
+    },
+    {
+      "id": "2",
+      "skinId": "7",
+      "needCount": "3"
+    },
+    {
+      "id": "3",
+      "skinId": "8",
+      "needCount": "4"
+    }
+  ],
+  "turntable": [
+    {
+      "id": "1",
+      "name": "金币",
+      "rewardNum": "2000",
+      "initialRate": "1",
+      "addRate": "1"
+    },
+    {
+      "id": "2",
+      "name": "金币",
+      "rewardNum": "300",
+      "initialRate": "15",
+      "addRate": "0"
+    },
+    {
+      "id": "3",
+      "name": "金币",
+      "rewardNum": "800",
+      "initialRate": "2",
+      "addRate": "0"
+    },
+    {
+      "id": "4",
+      "name": "金币",
+      "rewardNum": "200",
+      "initialRate": "16",
+      "addRate": "0"
+    },
+    {
+      "id": "5",
+      "name": "金币",
+      "rewardNum": "500",
+      "initialRate": "6",
+      "addRate": "0"
+    },
+    {
+      "id": "6",
+      "name": "随机皮肤",
+      "rewardNum": "0",
+      "initialRate": "0",
+      "addRate": "0"
+    }
+  ],
+  "globalSet": {
+    "cupResult": {
+      "10": [10, 8, 5, 3, 2, 0, -2, -3, -5, -8],
+      "15": [10, 8, 6, 4, 2, 0, -2, -4, -4, -6, -6, -8, -8, -8, -10],
+      "18": [
+        10,
+        8,
+        6,
+        4,
+        2,
+        0,
+        -2,
+        -4,
+        -4,
+        -4,
+        -6,
+        -6,
+        -6,
+        -8,
+        -8,
+        -8,
+        -8,
+        -10
+      ]
+    },
+    "maxVideoPropUpgrade": 600,
+    "straightWinBonusProb": [0.3, 0.6, 0.8, 0.9, 1],
+    "straightPropRatio": [0.3, 0.5, 0.8, 1, 1.2, 1.5],
+    "propMaxMinus": [30, 15, 30, 100],
+    "propMaxAdd": [15, 15, 10, 10],
+    "snipeTime": [25, 40],
+    "straightWinTimes": 3,
+    "totalLoseTimes": 2,
+    "leaderCutTime": 3,
+    "aiRandomMinAngle": -5,
+    "aiRandomMaxAngle": 20,
+    "defaultSkinId": 1,
+    "censorSkinId": 10,
+    "cameraDistance": 8,
+    "cameraChangeIp6": [
+      [0, 8, 0.95],
+      [70, 8.1, 0.95],
+      [120, 8.2, 0.95],
+      [180, 8.3, 0.95],
+      [250, 8.4, 0.95],
+      [420, 8.5, 0.95]
+    ],
+    "cameraChangeLow": [
+      [0, 8, 0.95],
+      [70, 8.5, 0.95],
+      [120, 9, 0.95],
+      [180, 9, 0.9],
+      [250, 9.5, 0.9],
+      [420, 10, 0.9],
+      [600, 10.5, 0.9]
+    ],
+    "cameraChangeMedium": [
+      [0, 8, 0.95],
+      [70, 9, 0.95],
+      [120, 10, 0.95],
+      [180, 11, 0.9],
+      [250, 11.5, 0.9],
+      [420, 12, 0.9],
+      [600, 13, 0.9]
+    ],
+    "cameraChangeHigh": [
+      [0, 8, 0.95],
+      [70, 8.5, 0.95],
+      [120, 9, 0.95],
+      [180, 9.5, 0.9],
+      [250, 10, 0.9],
+      [420, 11, 0.9],
+      [600, 12, 0.9]
+    ],
+    "stickerMin": 30,
+    "normalColor": -1,
+    "addSpeedMultiCount": 2,
+    "maxSpeedMulti": 0.3,
+    "maxRotation": 12,
+    "raceTime": 120,
+    "leaderOtherRadius": 1,
+    "leaderNewRadius": 1.2,
+    "followOtherRadius": 0.4,
+    "followNewRadius": 0.6,
+    "newEatingPlayerCd": 200,
+    "eatOtherPlayerCd": 200,
+    "moveSpeed": 4,
+    "followMoveSpeed": 4,
+    "walkSpeed": 1.8,
+    "findPathInterval": 0.3,
+    "findPathPoints": 10,
+    "groupCutDist": 5,
+    "groupCutTime": 0.5,
+    "wallCutDist": [0, 9999, 50],
+    "wallCutTime1": 2,
+    "wallCutTime2": 0.5,
+    "leaderRatio": 1.4,
+    "followRatio": 1.4,
+    "maxSkillPoint": 5,
+    "skillPlusNum": 5,
+    "skillPlusSpeed": 0.5,
+    "skillTime": 3,
+    "skillCd": 10,
+    "buySkillConsume": 200,
+    "buyReviveConsume": 1000,
+    "inviteFriendCd": 10,
+    "inviteSendRevive": 1,
+    "inviteSendSkill": 2,
+    "ownReviveMax": 5,
+    "ownSkillMax": 10,
+    "turntableFriendCd": 300,
+    "inviteSendTurning": 1,
+    "videoSendTurning": 1,
+    "turntableVideoMax": 3,
+    "ownTurningMax": 10,
+    "punish": -20,
+    "goldResult": {
+      "1": 200,
+      "2-3": 100,
+      "4-5": 50,
+      ">=6": 20
+    },
+    "skinResult": [1, 1],
+    "aiReviveProb": 50,
+    "aiKeepLvProb": 90,
+    "matchingText": [
+      "正在搭建城市…",
+      "正在拉拢小弟…",
+      "正在给人气喇叭充电…",
+      "正在制作人气替身…"
+    ],
+    "revivePopupNum": 1,
+    "skillPopupNum": 5,
+    "addItemRate1": 100,
+    "addItemRate2": 80,
+    "addItemRate3": 50,
+    "addItemRate4": 30,
+    "addItemRate5": 50,
+    "addItemRate6": 30,
+    "addItemRate7": 60,
+    "addItemRate8": 15,
+    "addItemDelay": [3, 10],
+    "battleAddItemDelay": [2, 3],
+    "addExtraBoxRate1": 95,
+    "addExtraBoxRate2": 70,
+    "addExtraBoxRate3": 50,
+    "addExtraBoxRate4": 30,
+    "addExtraBoxRate5": 50,
+    "addExtraBoxRate6": 30,
+    "addExtraBoxRate7": 60,
+    "addExtraBoxRate8": 15,
+    "addExtraBoxDelay": [3, 10],
+    "hitTurntableSix": 80,
+    "turntableSkillId": 21,
+    "videoRewardRevive": [0, 1],
+    "videoRewardSkill": [1, 3],
+    "videoSkinId": [],
+    "midAutumnSkin": 35
+  }
+}
